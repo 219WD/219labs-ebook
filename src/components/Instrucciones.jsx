@@ -6,7 +6,7 @@ const Instrucciones = () => {
     useInstrucciones();
     return (
         <div className='container saas'>
-            <section className="prices">
+            <section className="prices" id='instrucciones'>
                 <div className="prices-header">
                     <div className="prices-col"></div>
                     <div className="prices-col">

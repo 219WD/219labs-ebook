@@ -6,7 +6,7 @@ const TeRegalamos = () => {
     useTeRegalamos();
     return (
         <div className='container comoAyudamos'>
-            <section className="comoAyuda" id="comoAyuda">
+            <section className="comoAyuda" id="manual">
                 <div className="comoAyuda-header">
                     <div className="comoAyuda-col">
                         <p className="callout">¿Qué es este manual?</p>

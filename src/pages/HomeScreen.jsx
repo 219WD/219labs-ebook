@@ -5,11 +5,13 @@ import TeRegalamos from '../components/TeRegalamos'
 import AboutLibro from '../components/AboutLibro'
 import Footer from '../components/Footer'
 import Instrucciones from '../components/Instrucciones'
+import NavBar from '../components/NavBar'
 
 const HomeScreen = () => {
   return (
     <div className='container'>
         <Hero />
+        <NavBar />
         <About />
         <TeRegalamos />
         <AboutLibro />

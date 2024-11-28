@@ -6,7 +6,7 @@ import useAbout from '../hooks/useGsapAboutUs';
 const About = () => {
     useAbout();
     return (
-        <div className='container about'>
+        <div className='container about' id='about'>
             <img src="https://219labs.vercel.app/assets/site-logo-DILj7wbm.webp" alt="Logo" className='LogoAbout' />
             <div className="txt">
                 <p className="callout">¿Quiénes somos?</p>
