@@ -47,7 +47,7 @@ const Footer = () => {
                 <div className="footer-sub-header">
                     <h2>Completa el formulario</h2>
                     <h2>y</h2>
-                    <h2>Ponte en contacto</h2>
+                    <h2>Descarga el Ebook</h2>
                 </div>
 
                 <div className="footer-ctas">

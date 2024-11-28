@@ -7,7 +7,7 @@
 }
 
 .hero {
-    position: relative;   
+    position: relative;
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -70,3 +70,39 @@
 
 
 
+@media (max-width: 900px) {
+    .container.hero {
+        flex-direction: column-reverse;
+    }
+
+    .hero {
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    .hero .txt {
+        padding-bottom: 2rem;
+    }
+
+    .hero .txt h1 {
+        font-size: 2rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .hero .txt h2 {
+        font-family: "Archivo Black", serif;
+        color: #f0f0f0;
+        font-size: 1.7rem;
+        text-transform: uppercase;
+        margin-bottom: 1rem;
+    }
+
+    .hero .txt p {
+        font-family: "Montserrat", serif;
+        font-size: 1.2rem;
+        color: #f0f0f0;
+    }
+
+}
