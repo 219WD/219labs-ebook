@@ -14,7 +14,6 @@ const Instrucciones = () => {
                             ¡Obtén totalmente gratis este libro!
 
                             Para recibirlo en tu correo electrónico, solo tienes que rellenar el siguiente formulario. ¡No pierdas la oportunidad de obtener contenido valioso que te ayudará a llevar tu proyecto al siguiente nivel!
-                            <span>.</span>
                         </h3>
                     </div>
                 </div>
