@@ -1,0 +1,70 @@
+.container.saas{
+  background: #000;
+}
+.prices {
+  width: 100%;
+  height: max-content;
+  background: #131416;
+  padding-bottom: 12em;
+  border-radius: 20px;
+}
+
+.prices-header {
+  position: relative;
+  width: 100%;
+  padding: 20em 0 10em 0;
+  display: flex;
+  z-index: 2;
+}
+
+.prices-col {
+  padding: 1em;
+}
+
+.prices-col:nth-child(1) {
+  flex: 2;
+}
+
+.prices-col:nth-child(2) {
+  flex: 4;
+}
+
+.prices-col h3 {
+  font-family: "Unbounded", sans-serif;
+  font-size: 4rem;
+  width: 85%;
+  color: rgba(255, 255, 255, 0.125);
+  transition: color 0.3s;
+}
+
+@media (max-width: 900px) {
+  .prices-copy {
+    width: 100%;
+  }
+
+  .prices-header {
+    padding: 5em 0 5em 0;
+    flex-direction: column;
+  }
+  .prices-col h3 {
+    font-size: 2.5rem;
+    width: 100%;
+  }
+
+  .prices-cta h2 {
+    font-size: 2rem;
+  }
+
+  .prices-col h2 {
+    width: 100%;
+    font-size: 64px;
+  }
+
+  .prices-copy {
+    padding: 5em 1em 10em 1em;
+    font-size: 1.2rem;
+  }
+  .prices-cta {
+    width: 90%;
+  }
+}

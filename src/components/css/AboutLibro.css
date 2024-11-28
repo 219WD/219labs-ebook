@@ -1,0 +1,56 @@
+.container.aboutTeam {
+    background: #000;
+    position: relative;
+    height: 100vh;
+}
+
+.team {
+    padding: 5rem 2rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.txt.about {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    position: relative;
+}
+
+.txt.about h3 {
+    width: 85%;
+    color: rgba(255, 255, 255, 0.125);
+    transition: color 0.3s;
+    font-family: "Unbounded", sans-serif;
+    z-index: 5;
+    will-change: transform;
+}
+
+.paint {
+    position: absolute;
+    top: 0;
+    right: -100px;
+    /* Posiciona la imagen un 50% fuera del contenedor */
+    width: 500px;
+    z-index: 0;
+    will-change: transform;
+}
+
+
+@media (max-width: 900px) {
+    .container.aboutTeam {
+        flex-direction: column;
+        height: auto;
+    }
+    .txt.about {
+        flex-direction: column;
+        gap: 2rem;
+    }
+    .team {
+        padding: 5rem 1rem;
+    }
+    .txt.about h3 {
+        width: 100%;
+        font-size: 2.5rem;
+    }
+}
