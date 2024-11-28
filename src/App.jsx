@@ -1,11 +1,19 @@
-import React, { Suspense, lazy } from 'react';
+import React, { Suspense, lazy, useEffect } from 'react';
 import './App.css';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import { Helmet } from 'react-helmet';
+import { initLenis } from './hooks/UseLenis'
 
 const HomeScreen = lazy(() => import('./pages/HomeScreen'));
 
 function App() {
+  useEffect(() => {
+    // Inicializar Lenis cuando se monta el componente
+    const cleanupLenis = initLenis();
+
+    // Limpiar al desmontar el componente
+    return cleanupLenis;
+  }, []);
   return (
     <BrowserRouter>
       <Helmet>

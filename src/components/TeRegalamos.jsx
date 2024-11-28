@@ -1,7 +1,9 @@
 import React from 'react';
 import './css/TeRegalamos.css';
+import useTeRegalamos from '../hooks/useGsapTeRegalamos';
 
 const TeRegalamos = () => {
+    useTeRegalamos();
     return (
         <div className='container comoAyudamos'>
             <section className="comoAyuda" id="comoAyuda">

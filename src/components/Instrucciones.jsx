@@ -1,7 +1,9 @@
 import React from 'react'
 import './css/Instrucciones.css'
+import useInstrucciones from '../hooks/useGsapInstrucciones'
 
 const Instrucciones = () => {
+    useInstrucciones();
     return (
         <div className='container saas'>
             <section className="prices">

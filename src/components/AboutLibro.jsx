@@ -1,7 +1,9 @@
 import React from 'react'
 import './css/AboutLibro.css'
+import useAboutLibro from '../hooks/useGsapAboutLibro'
 
 const AboutLibro = () => {
+    useAboutLibro();
     return (
         <div className='container aboutTeam'>
             <section className='team'>

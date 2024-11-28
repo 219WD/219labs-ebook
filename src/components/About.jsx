@@ -1,8 +1,10 @@
 import React from 'react'
 import './css/About.css'
+import useAbout from '../hooks/useGsapAboutUs';
 
 
 const About = () => {
+    useAbout();
     return (
         <div className='container about'>
             <img src="https://219labs.vercel.app/assets/site-logo-DILj7wbm.webp" alt="Logo" className='LogoAbout' />
